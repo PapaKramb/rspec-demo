@@ -18,7 +18,7 @@ describe Hero do
     expect(@hero.power_down).to eq 90
   end
 
-  it "dispays full hero info" do
+  it "displays full hero info" do
     expect(@hero.hero_info).to eq 'Mike has a health of 100'
   end
 
